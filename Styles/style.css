@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+
+
+header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+
+}
+
+.header__nav {
+display: flex;
+   margin: 50px;
+   justify-content: left;
+   padding: 50px;
+    
+}
+
+.header__nav_list {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    text-align: center;
+}
+
+.header__nav_list_item {
+    font-family:"Comfortaa", sans-serif;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    
+ 
+}
+
+.header__nav_list_item-link:hover {
+    color: pink;
+}
+
+.header__nav_list_item-link:visited {
+    color:blueviolet;
+}
+
+.header__nav_list_item-link:focus {
+    outline: 2px solid #33ddff; /* Resalta el enlace con un borde */
+}
+
+.header__nav_list_item-link {
+    text-decoration: none;
+    color: #dba3f9 ;
+}
+
+
+.header__nav_logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 50px 3px 0 60px;
+
+}
+

@@ -9,7 +9,10 @@ body {
     height: 100%;
     width: 100%;
     display: flex;
-    background-image: radial-gradient(circle, #e7daf1 25%, #6d666d 100%);
+    flex-direction: column;
+    justify-content: center;
+    background-image: radial-gradient(circle, #e7daf1 25%, #9d889d 100%);
+    background-size: 100%;
 }
 
 
@@ -18,58 +21,84 @@ header {
     width: 100%;
     height: auto;
     justify-content: space-between;
-
+    margin: 0 15px; 
+    align-items: center;
 }
 
 .header__nav {
 display: flex;
-   margin: 50px;
-   justify-content: left;
-   padding: 50px;
+   margin: 0;
+   justify-content: flex-start;
+   padding: 0 50px;
+   width: 100%;
     
 }
 
-.header__nav_list {
+.header__nav-list {
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    text-align: center;
+    gap: 27px;
     list-style: none;
+    margin-top: 0;
+    height: 100%;
+    padding: 10px 65px 0 10px;
+    margin-left: 0;
 }
 
 
-.header__nav_list_item {
+.header__nav-list-item {
     font-family:"Comfortaa", sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 3rem;
     font-weight: 800;
  
 }
 
-.header__nav_list_item-link:hover {
-    color: pink;
+.header__nav-list-item-link:hover {
+    color: rgb(222, 91, 218);
 }
 
-.header__nav_list_item-link:visited {
+.header__nav-list-item-link:visited {
     color:blueviolet;
 }
 
-.header__nav_list_item-link:focus {
-    outline: 2px solid #33ddff; /* Resalta el enlace con un borde */
+.header__nav-list-item-link:focus {
+    outline: 2px solid #77c1de; 
 }
 
-.header__nav_list_item-link {
+.header__nav-list-item-link{
     text-decoration: none;
     color: #7b076f ;
 }
 
-
-.header__nav_logo {
+.header__nav-logo {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin: 50px 3px 0 60px;
-    box-shadow: 7px 15px 25px #d265c2;
+    margin: 23px 0 0 50px;
+    box-shadow: 7px 15px 100px #d265c2;
+    box-sizing: border-box;
 
 }
 
+
+.section__gradients {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.section__gradients-title {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 52px;
+    line-height: 24p;
+    font-weight: normal;
+    text-align: center;
+    color: #302c30 ;
+}
+
+.section__gradients_wrapper {
+
+}

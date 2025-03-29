@@ -9,7 +9,7 @@ body {
     height: 100%;
     width: 100%;
     display: flex;
-    background-color: black;
+    background-image: radial-gradient(circle, #e7daf1 25%, #6d666d 100%);
 }
 
 
@@ -32,15 +32,17 @@ display: flex;
 .header__nav_list {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 30px;
     text-align: center;
+    list-style: none;
 }
+
 
 .header__nav_list_item {
     font-family:"Comfortaa", sans-serif;
     font-size: 2.5rem;
     line-height: 3rem;
-    
+    font-weight: 800;
  
 }
 
@@ -58,7 +60,7 @@ display: flex;
 
 .header__nav_list_item-link {
     text-decoration: none;
-    color: #dba3f9 ;
+    color: #7b076f ;
 }
 
 
@@ -67,6 +69,7 @@ display: flex;
     height: 200px;
     border-radius: 50%;
     margin: 50px 3px 0 60px;
+    box-shadow: 7px 15px 25px #d265c2;
 
 }
 

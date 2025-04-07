@@ -1,104 +1,100 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+ width: 100%;
+  height: 100%;
+  box-sizing: border-box;
 }
-
 
 body {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: radial-gradient(circle, #e7daf1 25%, #9d889d 100%);
-    background-size: 100%;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: radial-gradient(circle, #d8d3d8 25%, #b1afaf 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
 
 header {
-    display: flex;
-    width: 100%;
-    height: auto;
-    justify-content: space-between;
-    margin: 0 15px; 
-    align-items: center;
-}
-
-.header__nav {
-display: flex;
-   margin: 0;
-   justify-content: flex-start;
-   padding: 0 50px;
-   width: 100%;
-    
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .header__nav-list {
-    display: flex;
-    flex-direction: row;
-    gap: 27px;
-    list-style: none;
-    margin-top: 0;
-    height: 100%;
-    padding: 10px 65px 0 10px;
-    margin-left: 0;
+  display: flex; 
+  list-style: none;
+  max-height: 180px;
+  max-width: 1300px;
+  border: outset rgb(158, 158, 219);
+  margin: 80px 50px 0 50px;
+  gap: 30px;
+  padding-left: 80px;
+
 }
 
-
 .header__nav-list-item {
-    font-family:"Comfortaa", sans-serif;
-    font-size: 2rem;
-    line-height: 3rem;
-    font-weight: 800;
- 
+  font-family: "Comfortaa", sans-serif;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 500;
+  align-content: center;
+  justify-content: center;
 }
 
 .header__nav-list-item-link:hover {
-    color: rgb(222, 91, 218);
+  color: rgb(222, 91, 218);
 }
 
 .header__nav-list-item-link:visited {
-    color:blueviolet;
+  color: rgb(102, 92, 248);
 }
 
-.header__nav-list-item-link:focus {
-    outline: 2px solid #77c1de; 
-}
-
-.header__nav-list-item-link{
-    text-decoration: none;
-    color: #7b076f ;
+.header__nav-list-item-link {
+  text-decoration: none;
+  color: #573953;
 }
 
 .header__nav-logo {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 23px 0 0 50px;
-    box-shadow: 7px 15px 100px #d265c2;
-    box-sizing: border-box;
-
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 70px 100px 0 50px;
+  box-shadow: 7px 15px 100px #d265c2;
 }
 
-
 .section__gradients {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: rgb(63, 63, 63);
 }
 
 .section__gradients-title {
-    font-family: "Press Start 2P", sans-serif;
-    font-size: 52px;
-    line-height: 24p;
-    font-weight: normal;
-    text-align: center;
-    color: #302c30 ;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 52px;
+  line-height: 24p;
+  font-weight: normal;
+  text-align: center;
+  color: #ebd7e8;
+  max-width: 50%;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
-.section__gradients_wrapper {
+.section__gradient-subtitle {
+    text-align: center;
+    color: #ebd7e8;
+
+}
+
+.section__gradients_grid {
+  width: 100%;
+  height: auto;
+  display: grid;
 
 }

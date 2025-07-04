@@ -31,7 +31,7 @@ header {
   max-height: 180px;
   width: auto;
   max-width: 1300px;
-  border: outset rgb(158, 158, 219);
+  border: outset rgb(240, 190, 229);
   border-radius: 10px;
   margin: 80px 50px 0 0;
   gap: 30px;
@@ -48,7 +48,7 @@ header {
 }
 
 .header__nav-list-item-link:hover {
-  color: rgb(222, 91, 218);
+  color: rgb(248, 245, 51);
 }
 
 .header__nav-list-item-link:visited {
@@ -65,7 +65,7 @@ header {
   height: 200px;
   border-radius: 50%;
   margin: 70px 70px 0 40px;
-  box-shadow: 7px 15px 100px #d265c2;
+  box-shadow: 7px 50px 100px #dee7be;
 }
 /*gradients*/
 .section__gradients {
@@ -80,7 +80,7 @@ header {
   line-height: 24p;
   font-weight: normal;
   text-align: center;
-  color: #ebd7e8;
+  color: #fac7f2;
   max-width: 50%;
   margin: 0 auto;
   padding-top: 100px;
@@ -107,7 +107,7 @@ header {
   height: 400px;
   width: 400px;
   color: white;
-  border: 5px groove #eec6ea;
+  border: none;
 }
 
 .section__gradients-item--one {
